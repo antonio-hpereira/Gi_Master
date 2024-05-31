@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GiMaster_identityServer.props" />
+</Project>

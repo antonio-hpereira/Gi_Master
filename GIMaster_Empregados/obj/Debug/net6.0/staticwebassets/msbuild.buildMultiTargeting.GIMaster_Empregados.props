@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GIMaster_Empregados.props" />
+</Project>

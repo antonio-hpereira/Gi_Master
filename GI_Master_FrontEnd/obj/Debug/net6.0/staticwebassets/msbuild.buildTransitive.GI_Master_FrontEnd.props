@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GI_Master_FrontEnd.props" />
+</Project>
