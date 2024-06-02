@@ -41,6 +41,7 @@ namespace GIMaster_Empresa.Controllers
             return Ok(empresa);
         }
 
+        [Authorize]
         [HttpPut]
         public async Task<ActionResult<EmpresaVO>> Update([FromBody] EmpresaVO vo)
         {
@@ -48,6 +49,8 @@ namespace GIMaster_Empresa.Controllers
             var empregado = await _empresaRepository.Update(vo);
             return Ok(empregado);
         }
+
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<EmpresaVO>> GetAll()
         {
@@ -55,16 +58,18 @@ namespace GIMaster_Empresa.Controllers
             return Ok(empresa);
         }
 
-        [HttpGet("{uniquekey}")]
-        public async Task<ActionResult<EmpresaVO>> Get(string uniquekey)
+        [Authorize]
+        [HttpGet("{id}")]
+        public async Task<ActionResult<EmpresaVO>> Get(string id)
         {
-            Guid guid = Guid.Parse(uniquekey);
-            if (guid == Guid.Empty) return BadRequest();
-            var empregado = await _empresaRepository.FindById(guid);
+            Guid ID = Guid.Parse(id);
+            if (ID == Guid.Empty) return BadRequest();
+            var empregado = await _empresaRepository.FindById(ID);
             return Ok(empregado);
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         //[Authorize(Roles = Role.Admin)]
         public async Task<ActionResult> Delete(Guid id)
         {

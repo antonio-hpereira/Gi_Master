@@ -8,5 +8,7 @@ namespace GIMaster_Empresa.Context
         public EmpresasContext(DbContextOptions<EmpresasContext> options) : base(options) { }
 
         public DbSet<Empresas> Empresas { get; set; }
+
+        public DbSet<Departamentos> Departamentos { get; set; }
     }
 }

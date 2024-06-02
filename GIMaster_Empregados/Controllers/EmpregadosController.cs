@@ -56,14 +56,14 @@ namespace GIMaster_Empregados.Controllers
             return Ok(empregado);
         }
 
-        [HttpGet("{uniquekey}")]
+        [HttpGet("{id}")]
         [Authorize]
-        public async Task<ActionResult<EmpregadoVO>> Get(string uniquekey)
+        public async Task<ActionResult<EmpregadoVO>> Get(string id)
         {
-            Guid guid = Guid.Parse(uniquekey);
+            Guid ID = Guid.Parse(id);
 
-            if (guid == Guid.Empty) return BadRequest();
-            var empregado = await _empregadoRepository.FindById(guid);
+            if (ID == Guid.Empty) return BadRequest();
+            var empregado = await _empregadoRepository.FindById(ID);
             return Ok(empregado);
         }
 

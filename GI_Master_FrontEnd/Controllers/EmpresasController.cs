@@ -66,6 +66,7 @@ namespace GI_Master_FrontEnd.Controllers
         [Authorize]
         public async Task<IActionResult> EmpresaList(int id)
         {
+            var token = await HttpContext.GetTokenAsync("access_token");
             if (id == 1)
                 ViewBag.Message = "Empresa adicionada com sucesso!";
 
@@ -75,7 +76,7 @@ namespace GI_Master_FrontEnd.Controllers
             if (id == 3)
                 ViewBag.Message = "Empresa excluída com sucesso!";
 
-            var emprsas = await _empresaservices.FindAllEmpresas("");
+            var emprsas = await _empresaservices.FindAllEmpresas(token);
 
             return View(emprsas);
 
@@ -113,6 +114,15 @@ namespace GI_Master_FrontEnd.Controllers
                      nameof(EmpresaList), new { id = 2 });
             }
             return View(model);
+        }
+
+        [Authorize]
+        public async Task<IActionResult> EmpresaDetails(string id)
+        {
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var model = await _empresaservices.FindEmpresasByID(id, token);
+            if (model != null) return View(model);
+            return NotFound();
         }
 
         [Authorize]

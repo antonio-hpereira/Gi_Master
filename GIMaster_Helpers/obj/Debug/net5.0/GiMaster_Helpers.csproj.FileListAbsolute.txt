@@ -10,3 +10,15 @@ C:\Users\Tonic\Documents\GIMaster\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\Gi
 C:\Users\Tonic\Documents\GIMaster\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\refint\GiMaster_Helpers.dll
 C:\Users\Tonic\Documents\GIMaster\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.pdb
 C:\Users\Tonic\Documents\GIMaster\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\ref\GiMaster_Helpers.dll
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\bin\Debug\net5.0\GiMaster_Helpers.deps.json
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\bin\Debug\net5.0\GiMaster_Helpers.dll
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\bin\Debug\net5.0\GiMaster_Helpers.pdb
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.csproj.AssemblyReference.cache
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.AssemblyInfoInputs.cache
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.AssemblyInfo.cs
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.dll
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\refint\GiMaster_Helpers.dll
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\GiMaster_Helpers.pdb
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GIMaster_Helpers\obj\Debug\net5.0\ref\GiMaster_Helpers.dll

@@ -15,7 +15,7 @@
         }
        
         <div class="col text-end pt-1">
-            <a asp-action="EmpresasCreate" class="btn btn-outline-primary">
+            <a asp-action="EmpregadosCreate" class="btn btn-outline-primary">
                 <i class="fas fa-plus"></i>Novo Empregado
             </a>
         </div>
@@ -28,6 +28,9 @@
     <table class="table" id="myTable">
         <thead>
             <tr>
+                <th>
+                    Perfil
+                </th>
                 <th>
                     Nome
                 </th>
@@ -43,6 +46,9 @@
             @foreach (var item in Model)
             {
                 <tr>
+                    <td>
+                        <img src="@WC.ImagenEmpregadoPath@item.Foto" width="40px" height="40px" style="border-radius:5px; border:1px solid #bbb" />
+                    </td>
                     <td>
                         @item.Nome
                     </td>

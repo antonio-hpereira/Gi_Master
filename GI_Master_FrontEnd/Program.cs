@@ -15,6 +15,10 @@ builder.Services.AddHttpClient<IEmpregadosServices, EmpregadosServices>(c =>
 builder.Services.AddHttpClient<IEmpresasServices, EmpresasServices>(c =>
                    c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:EmpresasAPI"])
                );
+builder.Services.AddHttpClient<IDepartamentoServices, DeparamentosServices>(c =>
+                   c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:EmpresasAPI"])
+               );
+
 
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);

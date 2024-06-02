@@ -1,0 +1,67 @@
+﻿@model GI_Master_FrontEnd.Models.Departamentos
+
+<form asp-action="DepartamentosCreate" enctype="multipart/form-data" method="post">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-primary">Novo</h1>
+
+        <hr />
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="col-2">
+                <label asp-for="EmpresaID" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <select asp-for="EmpresaID" asp-items="@ViewBag.empresaDropdow" class="form-control">
+                    <option selected>--Selecione a Empresa</option>
+                </select>
+                <span asp-validation-for="EmpresaID" class="text-danger" />
+            </div>
+
+            <div class="col-2">
+                <label asp-for="ID" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <select asp-for="ID" asp-items="@ViewBag.departamentosDropDown" class="form-control">
+                    <option selected>--Selecione a Empresa</option>
+                </select>
+                <span asp-validation-for="ID" class="text-danger" />
+            </div>
+           
+            <div class="col-2">
+                <label asp-for="Nome" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger" />
+            </div>
+
+            <div class="col-2">
+                <label asp-for="Sigla" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Sigla" class="form-control" />
+                <span asp-validation-for="Sigla" class="text-danger" />
+            </div>
+
+            <input name="__RequestVerificationToken" type="hidden"
+                   value="<Antiforgery token here>" />
+
+            <div class="col-5 offset-2">
+                <a asp-action="EmpregadoList" class="btn-primary btn form-control ">Back to List</a>
+            </div>
+
+
+            <div class="col-5">
+                <input type="submit" value="Create" class="btn btn-success form-control" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+
+}

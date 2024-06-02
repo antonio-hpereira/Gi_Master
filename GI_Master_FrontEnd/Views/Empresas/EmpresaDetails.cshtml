@@ -1,0 +1,176 @@
+﻿@model GI_Master_FrontEnd.ViewModels.EmpresasVM
+
+<form>
+    <input asp-for="ID" hidden>
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-primary">Details</h1>
+
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4">
+                <span class="border border-success">
+                    <img src="@WC.ImagenEmpresasSedePath@Model.foto" width="80%" style="border-radius:5px; border:1px solid #bbb" />
+                </span>
+            </div>
+            <div class="col-sm-8 col-md-8">
+                <div class="col-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            RazaoSocial:
+                        </div>
+                        <div class="col-sm-8 col-md-8 " style="text-align:left">
+                            @Model.RazaoSocial
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Fantasia:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Fantasia
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            cnpj:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.cnpj
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 text-primary">
+                            ramo:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.ramo
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            cnae:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.cnae
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            DataFundacao:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.DataFundacao
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Email:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Email
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Telefone:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Telefone
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Estado:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Estado
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Cidade:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Cidade
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Bairro:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Bairro
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Rua:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Rua
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Numero:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Numero
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 text-primary">
+                            Status:
+                        </div>
+                        <div class="col-sm-8 col-md-8" style="text-align:left">
+                            @Model.Status
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 offset-12">
+                <a asp-action="EmpresaList" class="btn-primary btn form-control ">Back to List</a>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial">
+    }

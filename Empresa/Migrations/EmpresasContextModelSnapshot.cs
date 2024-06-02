@@ -22,9 +22,41 @@ namespace GIMaster_Empresa.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("GIMaster_Empresa.Entidades.Empresas", b =>
+            modelBuilder.Entity("GIMaster_Empresa.Entidades.Departamentos", b =>
                 {
                     b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DataUltimaAlteracao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("EmpresaID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Pai")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PaiID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Sigla")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UltimaAlteracao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("tbDepartamentos");
+                });
+
+            modelBuilder.Entity("GIMaster_Empresa.Entidades.Empresas", b =>
+                {
+                    b.Property<Guid?>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -65,7 +97,6 @@ namespace GIMaster_Empresa.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Telefone")
@@ -81,7 +112,6 @@ namespace GIMaster_Empresa.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("foto")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ramo")
