@@ -11,6 +11,8 @@ namespace GIMaster_Empresa.Config
             var mappingConfig = new MapperConfiguration(config => {
                 config.CreateMap<EmpresaVO, Empresas>();
                 config.CreateMap<Empresas, EmpresaVO>();
+                config.CreateMap<DepartamentosVO, Departamentos>();
+                config.CreateMap<Departamentos, DepartamentosVO>();
             });
             return mappingConfig;
         }

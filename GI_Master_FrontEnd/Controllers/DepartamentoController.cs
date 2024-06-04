@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
 
 namespace GI_Master_FrontEnd.Controllers
 {
@@ -58,8 +59,8 @@ namespace GI_Master_FrontEnd.Controllers
             IEnumerable<DepartamentosVM> departamentos = await _departamentoService.FindAllDepartamentos(token);
             IEnumerable<SelectListItem> departamentosDropDown = departamentos.Select(i => new SelectListItem
             {
-                Text = i.Sigla,
-                Value = i.ID.ToString()
+                Text = i.Nome + " - " + i.Sigla,
+                Value = i.Pai.ToString()
             });
 
             ViewBag.departamentosDropDown = departamentosDropDown.ToList();
@@ -68,20 +69,42 @@ namespace GI_Master_FrontEnd.Controllers
             return View();
         }
 
+              
+        [HttpPost]
+        public async Task<ActionResult<IEnumerable<dynamic>>> DepartamentoPorEmpresa(string idEmpresa)
+        {
+
+            var token = await HttpContext.GetTokenAsync("access_token");
+            IEnumerable<DepartamentosVM> departamentos = await _departamentoService.FindAllDepartamentos(token);
+           
+           
+            IEnumerable<SelectListItem> departamentosDropDown = departamentos.Select(i => new SelectListItem
+            {
+                Text = i.Nome + " - " + i.Sigla,
+                Value = i.Pai.ToString()
+            });
+
+            ViewBag.departamentosDropDown = departamentosDropDown.ToList();
+
+
+            return new JsonResult(Ok(departamentos));
+
+        }
+
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> DepartamentosCreate(Departamentos model)
+        public async Task<IActionResult> DepartamentosCreate(DepartamentosVM model)
         {
-            EmpresasVM empresas = _mapper.Map<EmpresasVM>(model);
+           // DepartamentosVM departamento = _mapper.Map<Departamentos>(model);
 
-            if (ModelState.IsValid)
-            {
+           
+            
                 var token = await HttpContext.GetTokenAsync("access_token");
-                var response = await _empresaservices.CreateEmpresa(empresas, token);
+                var response = await _departamentoService.CreateDepartamentos(model, token);
                 if (response != null)
                     return RedirectToAction(nameof(DepartamentosList), new { id = 1 });
 
-            }
+          
             return View(model);
 
         }

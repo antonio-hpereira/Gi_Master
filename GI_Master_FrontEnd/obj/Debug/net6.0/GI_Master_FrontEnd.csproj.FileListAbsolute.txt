@@ -738,3 +738,4 @@ C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GI_Master_FrontEnd\obj\Debug\net6.0\
 C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GI_Master_FrontEnd\obj\Debug\net6.0\GI_Master_FrontEnd.pdb
 C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GI_Master_FrontEnd\obj\Debug\net6.0\GI_Master_FrontEnd.genruntimeconfig.cache
 C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GI_Master_FrontEnd\obj\Debug\net6.0\ref\GI_Master_FrontEnd.dll
+C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GI_Master_FrontEnd\bin\Debug\net6.0\Newtonsoft.Json.dll

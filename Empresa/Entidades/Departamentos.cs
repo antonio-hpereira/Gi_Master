@@ -7,13 +7,13 @@ namespace GIMaster_Empresa.Entidades
     public class Departamentos
     {
         [Key]
-        public Guid ID { get; set; }
+        public Guid? ID { get; set; }
 
-        public Guid EmpresaID { get; set; }
+        public Guid? EmpresaID { get; set; }
 
-        public int Pai { get; set; }
+        public Guid? Pai { get; set; }
 
-        public int? PaiID { get; set; }
+        public Guid? PaiID { get; set; }
 
         public string? Nome { get; set; }
 

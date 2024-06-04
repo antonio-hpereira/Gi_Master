@@ -7,16 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Scripts\Documentos.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Scripts\Documentos\Novo.js" />
     <None Include="wwwroot\Scripts\Validadores.js" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="bootstrap" Version="5.3.3" />
+    <PackageReference Include="jQuery" Version="3.7.1" />
+    <PackageReference Include="jQuery.Ajax.Unobtrusive" Version="2.0.20710" />
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 
   <ItemGroup>

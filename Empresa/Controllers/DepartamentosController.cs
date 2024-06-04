@@ -10,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GIMaster_Empresa.Controllers
 {
+    [Route("api/Departamentos")]
+    [ApiController]
     public class DepartamentosController : Controller
     {
         private IDepartamentoRepository _departamentoRepository;
@@ -32,12 +34,9 @@ namespace GIMaster_Empresa.Controllers
                 var msg = new MessageBase();
                 msg.RetornaErro("Departamento " + vo.Nome + " já existe no sistema!");
                 //string json = JsonSerializer.Deserialize(msg);
-
                 return BadRequest(msg);
             }
-
             var departamento = await _departamentoRepository.Create(vo);
-
             return Ok(departamento);
         }
 

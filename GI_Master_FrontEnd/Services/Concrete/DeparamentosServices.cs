@@ -8,7 +8,7 @@ namespace GI_Master_FrontEnd.Services.Concrete
     public class DeparamentosServices : IDepartamentoServices
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/Empresas";
+        public const string BasePath = "api/Departamentos";
         public DeparamentosServices(HttpClient client)
         {
             _client = client ?? throw new ArgumentNullException(nameof(client));
@@ -36,7 +36,7 @@ namespace GI_Master_FrontEnd.Services.Concrete
 
         public async Task<DepartamentosVM> CreateDepartamentos(DepartamentosVM model, string token)
         {
-            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);            
             var response = await _client.PostAsJson(BasePath, model);
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<DepartamentosVM>();

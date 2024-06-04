@@ -16,7 +16,7 @@ builder.Services.AddHttpClient<IEmpresasServices, EmpresasServices>(c =>
                    c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:EmpresasAPI"])
                );
 builder.Services.AddHttpClient<IDepartamentoServices, DeparamentosServices>(c =>
-                   c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:EmpresasAPI"])
+                   c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:DepartamentoAPI"])
                );
 
 

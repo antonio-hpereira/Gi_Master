@@ -22,14 +22,18 @@ namespace GIMaster_Empresa.Repository.Concrete
         public async Task<DepartamentosVO> Create(DepartamentosVO vo)
         {
             Departamentos departamentos = _mapper.Map<Departamentos>(vo);
+            //if (departamentos.ID == Guid.Empty)
+            //    departamentos.ID = Guid.NewGuid();
 
-            if (departamentos.ID == Guid.Empty)
-                departamentos.ID = Guid.NewGuid();
-           
+            Guid ID = Guid.NewGuid();
+            departamentos.ID = ID;
+
+            Guid pai = Guid.NewGuid();
+            departamentos.Pai = pai;
+
 
             _context.Departamentos.Add(departamentos);
             _context.SaveChanges();
-
             return _mapper.Map<DepartamentosVO>(departamentos);
         }
 

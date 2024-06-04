@@ -13,6 +13,8 @@ namespace GI_Master_FrontEnd.Config
                 config.CreateMap<Empregados, EmpregadoVM>();
                 config.CreateMap<EmpresasVM, Empresas>();
                 config.CreateMap<Empresas, EmpresasVM>();
+                config.CreateMap<DepartamentosVM, Departamentos>();
+                config.CreateMap<Departamentos, DepartamentosVM>();
             });
             return mappingConfig;
         }

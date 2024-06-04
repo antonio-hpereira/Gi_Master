@@ -24,24 +24,24 @@ namespace GIMaster_Empresa.Migrations
 
             modelBuilder.Entity("GIMaster_Empresa.Entidades.Departamentos", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<Guid?>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("DataUltimaAlteracao")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("EmpresaID")
+                    b.Property<Guid?>("EmpresaID")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Pai")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("Pai")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("PaiID")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("PaiID")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Sigla")
                         .HasColumnType("nvarchar(max)");

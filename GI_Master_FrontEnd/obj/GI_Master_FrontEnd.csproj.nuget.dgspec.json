@@ -61,9 +61,21 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
             "bootstrap": {
               "target": "Package",
               "version": "[5.3.3, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "jQuery.Ajax.Unobtrusive": {
+              "target": "Package",
+              "version": "[2.0.20710, )"
             }
           },
           "imports": [

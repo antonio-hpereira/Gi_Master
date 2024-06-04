@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LsN2VjntQ1+tcvJeWRMfTy12dUnXwoZBVmZ2YCh0y1g=",
+  "Hash": "qH/CfN9WKtT932ubxhsVea9Ed6u68re8qYXcuutjIUE=",
   "Source": "GI_Master_FrontEnd",
   "BasePath": "_content/GI_Master_FrontEnd",
   "Mode": "Default",
@@ -2038,6 +2038,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Tonic\\Desktop\\GIMaster01\\Gi_Master\\GI_Master_FrontEnd\\wwwroot\\Scripts\\Documentos\\Novo.js",
+      "SourceId": "GI_Master_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tonic\\Desktop\\GIMaster01\\Gi_Master\\GI_Master_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/GI_Master_FrontEnd",
+      "RelativePath": "Scripts/Documentos/Novo.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Documentos\\Novo.js"
     },
     {
       "Identity": "C:\\Users\\Tonic\\Desktop\\GIMaster01\\Gi_Master\\GI_Master_FrontEnd\\wwwroot\\Scripts\\Validadores.js",

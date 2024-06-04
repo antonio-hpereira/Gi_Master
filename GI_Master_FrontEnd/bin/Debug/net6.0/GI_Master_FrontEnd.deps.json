@@ -39,7 +39,10 @@
           "Microsoft.AspNetCore.Authentication": "2.2.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.0",
+          "Newtonsoft.Json": "12.0.2",
           "bootstrap": "5.3.3",
+          "jQuery": "3.7.1",
+          "jQuery.Ajax.Unobtrusive": "2.0.20710",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "6.0.0.0",
@@ -351,6 +354,12 @@
         }
       },
       "bootstrap/5.3.3": {},
+      "jQuery/3.7.1": {},
+      "jQuery.Ajax.Unobtrusive/2.0.20710": {
+        "dependencies": {
+          "Microsoft.jQuery.Unobtrusive.Ajax": "2.0.20710"
+        }
+      },
       "Microsoft.AspNet.Mvc/5.3.0": {
         "dependencies": {
           "Microsoft.AspNet.Razor": "3.3.0",
@@ -805,6 +814,11 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
+      "Microsoft.jQuery.Unobtrusive.Ajax/2.0.20710": {
+        "dependencies": {
+          "jQuery": "3.7.1"
+        }
+      },
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0",
@@ -827,6 +841,17 @@
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.Buffers/4.5.0": {},
@@ -2644,6 +2669,20 @@
       "path": "bootstrap/5.3.3",
       "hashPath": "bootstrap.5.3.3.nupkg.sha512"
     },
+    "jQuery/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rF8hnQxmBMlIspf8VN72bALtmIpKx6hKRpUdTOkp/8JzfF8KgNqHut5lOy9kFGvFIStumCqJ+PBxpI9gxpRYfQ==",
+      "path": "jquery/3.7.1",
+      "hashPath": "jquery.3.7.1.nupkg.sha512"
+    },
+    "jQuery.Ajax.Unobtrusive/2.0.20710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pi9soMRdzL30AMb/gXPLjTLzjYs3/Ac0S51h4M28Iyc4rYQ4ln1fZxPTEmEbnUYRZzuP2b5P2saBq9llJ1e1tg==",
+      "path": "jquery.ajax.unobtrusive/2.0.20710",
+      "hashPath": "jquery.ajax.unobtrusive.2.0.20710.nupkg.sha512"
+    },
     "Microsoft.AspNet.Mvc/5.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2924,6 +2963,13 @@
       "path": "microsoft.identitymodel.tokens/6.7.1",
       "hashPath": "microsoft.identitymodel.tokens.6.7.1.nupkg.sha512"
     },
+    "Microsoft.jQuery.Unobtrusive.Ajax/2.0.20710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qe7300U7GFkYuncm2cCR/Lj8xexvYlGYIjvb857N1oLpGXUmHIqmWl7cCajV0BkQ0V+jRqadfqf2znLsAZ3KLg==",
+      "path": "microsoft.jquery.unobtrusive.ajax/2.0.20710",
+      "hashPath": "microsoft.jquery.unobtrusive.ajax.2.0.20710.nupkg.sha512"
+    },
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -2951,6 +2997,13 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",
