@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "API_Loan_Simulator.Controllers.LoanSimulatorController",
+    "Method": "CalcularSimulacao",
+    "RelativePath": "api/LoanSimulator/calcular",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "API_Loan_Simulator.Core_Simulator.DadosSimulacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

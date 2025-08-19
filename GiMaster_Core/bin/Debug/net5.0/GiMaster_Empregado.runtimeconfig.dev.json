@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\Tonic\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Tonic\\.nuget\\packages"
-    ]
-  }
-}

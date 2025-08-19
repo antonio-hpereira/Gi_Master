@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Loan_Simulator", "API_Loan_Simulator\API_Loan_Simulator.csproj", "{D38704BD-EE08-47ED-929A-E5F200717F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulatorTests", "LoanSimulatorTests\LoanSimulatorTests.csproj", "{54B5BC28-BDB3-4110-AB60-F9AABF0B7CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D38704BD-EE08-47ED-929A-E5F200717F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38704BD-EE08-47ED-929A-E5F200717F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38704BD-EE08-47ED-929A-E5F200717F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38704BD-EE08-47ED-929A-E5F200717F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B5BC28-BDB3-4110-AB60-F9AABF0B7CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B5BC28-BDB3-4110-AB60-F9AABF0B7CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B5BC28-BDB3-4110-AB60-F9AABF0B7CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B5BC28-BDB3-4110-AB60-F9AABF0B7CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AC850B3-43D1-4D12-ABD5-1ED84B253FB9}
+	EndGlobalSection
+EndGlobal
