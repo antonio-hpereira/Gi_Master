@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vqHeXYA9ltR1u5sSX7k182hDAoPF6qSl1wVqJFe8/KmTvDzECN5+AwVGKCMCLcwqnbiX9E8FvtBVdkbw2CYTDA==",
+  "dgSpecHash": "ZUAABQG0c1U=",
   "success": true,
   "projectFilePath": "C:\\Users\\Tonic\\Desktop\\GIMaster01\\Gi_Master\\GI_Master_FrontEnd\\GI_Master_FrontEnd.csproj",
   "expectedPackageFiles": [
@@ -87,6 +87,16 @@
       "warningLevel": 1,
       "message": "Versão detectada do pacote fora da restrição de dependência: Microsoft.jQuery.Unobtrusive.Ajax 2.0.20710 requer jQuery (>= 1.4.4 && < 2.0.0), mas a versão jQuery 3.7.1 foi resolvida.",
       "libraryId": "jQuery",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Newtonsoft.Json' 12.0.2 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net6.0"
       ]

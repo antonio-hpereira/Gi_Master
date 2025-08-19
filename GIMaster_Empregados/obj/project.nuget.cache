@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9DErMWygwVDxckFR2uGsHpoth9A3rPJ1b+yPHVa22uKlPHTR9nwWpPOD4BoEbR6sumeS5JsSiFX7W/5d0JpJ0A==",
+  "dgSpecHash": "YVpLAmrJMfE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Tonic\\Desktop\\GIMaster01\\Gi_Master\\GIMaster_Empregados\\GIMaster_Empregados.csproj",
   "expectedPackageFiles": [
@@ -59,5 +59,16 @@
     "C:\\Users\\Tonic\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
     "C:\\Users\\Tonic\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'System.Text.Json' 6.0.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

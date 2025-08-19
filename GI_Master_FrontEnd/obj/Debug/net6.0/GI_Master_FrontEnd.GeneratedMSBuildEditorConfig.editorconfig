@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GI_Master_FrontEnd
 build_property.RootNamespace = GI_Master_FrontEnd
 build_property.ProjectDir = C:\Users\Tonic\Desktop\GIMaster01\Gi_Master\GI_Master_FrontEnd\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -18,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 
 [C:/Users/Tonic/Desktop/GIMaster01/Gi_Master/GI_Master_FrontEnd/Views/Departamento/DepartamentosCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERlcGFydGFtZW50b3NDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tonic/Desktop/GIMaster01/Gi_Master/GI_Master_FrontEnd/Views/Departamento/DepartamentosList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERlcGFydGFtZW50b3NMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tonic/Desktop/GIMaster01/Gi_Master/GI_Master_FrontEnd/Views/Empregados/EmpregadoList.cshtml]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GiMaster_Helpers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d833c39e7a538a8d0026b56a0ebce2bdb3164a77")]
 [assembly: System.Reflection.AssemblyProductAttribute("GiMaster_Helpers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GiMaster_Helpers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

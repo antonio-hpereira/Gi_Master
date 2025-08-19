@@ -27,6 +27,7 @@ namespace GI_Master_FrontEnd.Controllers
         [Authorize]
         public async Task<IActionResult> DepartamentosList(int id)
         {
+            var token = await HttpContext.GetTokenAsync("access_token");
             if (id == 1)
                 ViewBag.Message = "Departamento adicionado com sucesso!";
 
@@ -36,9 +37,9 @@ namespace GI_Master_FrontEnd.Controllers
             if (id == 3)
                 ViewBag.Message = "Departamento excluído com sucesso!";
 
-            var emprsas = await _empresaservices.FindAllEmpresas("");
+            var departamento = await _departamentoService.FindAllDepartamentos(token);
 
-            return View(emprsas);
+            return View(departamento);
 
         }
 
