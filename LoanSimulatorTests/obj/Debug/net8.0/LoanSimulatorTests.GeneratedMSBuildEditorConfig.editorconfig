@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoanSimulatorTests
-build_property.ProjectDir = C:\Users\Tonic\source\repos\API_Loan_Simulator\LoanSimulatorTests\
+build_property.ProjectDir = C:\Users\Tonic\Documents\hackathon\desafiohackathon\LoanSimulatorTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

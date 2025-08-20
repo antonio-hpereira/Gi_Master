@@ -1,5 +1,5 @@
-﻿using Azure.Messaging.EventHubs;
-using global::Core_Simulator;
+﻿using API_Loan_Simulator.Entities.ViewModel;
+using Azure.Messaging.EventHubs;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.ServiceBus;
 using System.Text;
@@ -20,9 +20,9 @@ namespace API_Loan_Simulator.EventHub
                 try
                 {
                     var json = Encoding.UTF8.GetString(evento.EventBody.ToArray());
-                    var simulacao = JsonSerializer.Deserialize<ResultadoFinalSimulacao>(json);
+                    var simulacao = JsonSerializer.Deserialize<ResultadoFinalSimulacaoViewModel>(json);
 
-                    log.LogInformation($"Simulação recebida: Produto {simulacao.CodigoProduto}, Juros {simulacao.TaxaJuros}");
+                    log.LogInformation($"Simulação recebida: Produto {simulacao.CO_PRODUTO}, Juros {simulacao.VR_TAXA_JUROS}");
 
                     // Aqui você pode salvar no banco, enviar para outro serviço, etc.
                     await ProcessarSimulacao(simulacao, log);
@@ -34,10 +34,10 @@ namespace API_Loan_Simulator.EventHub
             }
         }
 
-        private static Task ProcessarSimulacao(ResultadoFinalSimulacao simulacao, ILogger log)
+        private static Task ProcessarSimulacao(ResultadoFinalSimulacaoViewModel simulacao, ILogger log)
         {
             // Exemplo: salvar em banco, enviar para fila, etc.
-            log.LogInformation($"Processando simulação {simulacao.IdSimulacao} com {simulacao.SimulacaoSAC.Count} parcelas SAC.");
+            log.LogInformation($"Processando simulação {simulacao.CO_SIMULACAO_FINAL} com {simulacao.SIMULACAO_SAC.Count} parcelas SAC.");
             return Task.CompletedTask;
         }
     }

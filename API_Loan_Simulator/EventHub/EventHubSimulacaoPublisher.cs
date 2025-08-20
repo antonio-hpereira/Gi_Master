@@ -1,10 +1,9 @@
 ﻿
+using API_Loan_Simulator.Entities.ViewModel;
 using Azure.Messaging.EventHubs;
 using Azure.Messaging.EventHubs.Producer;
-using global::Core_Simulator;
 using System.Text;
 using System.Text.Json;
-using Azure.Messaging.EventHubs.Producer;
 
 
 namespace API_Loan_Simulator.EventHub
@@ -43,7 +42,7 @@ namespace API_Loan_Simulator.EventHub
 
         }
 
-        public async Task EnviarSimulacaoAsync(ResultadoFinalSimulacao simulacao)
+        public async Task EnviarSimulacaoAsync(ResultadoFinalSimulacaoViewModel simulacao)
         {
             var json = JsonSerializer.Serialize(simulacao);
             var evento = new EventData(Encoding.UTF8.GetBytes(json));

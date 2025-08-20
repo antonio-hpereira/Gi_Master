@@ -1,11 +1,24 @@
-﻿namespace API_Loan_Simulator.Entities
+﻿using API_Loan_Simulator.Entities.ViewModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace API_Loan_Simulator.Entities
 {
     public class Simulacao
     {
-        public int Id { get; set; }
-        public DateTime DataSimulacao { get; set; }
-        public decimal ValorEntrada { get; set; }
-        public decimal ValorResultado { get; set; }
-        public string ParametrosUtilizados { get; set; } // JSON ou string simples
+        [Key]
+        public Guid CO_SIMULACAO { get; set; }
+
+        public DateTime DT_DATA_SIMULACAO { get; set; }
+
+        public decimal VR_VALOR_ENTRADA { get; set; }
+
+        public int NU_PARCELAS { get; set; }
+
+        // Navegação: uma simulação tem várias parcelas
+        public List<Parcelas> Parcelas { get; set; }
     }
+
+
+
 }
+

@@ -415,6 +415,24 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.8": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.InMemory/9.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.Caching.Memory": "9.0.8",
+          "Microsoft.Extensions.Logging": "9.0.8"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -3102,6 +3120,21 @@
         "docs/PACKAGE.md",
         "microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/9.0.8": {
+      "sha512": "F5+lo74OJH9iik/WtMae9ySeew1pxiYSmODkTmHo7n7JsCM5flW1WlUCjACoe7XM9Gng2ndUwXjIizhzx3Os5w==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.9.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/9.0.8": {
@@ -8158,6 +8191,7 @@
       "Microsoft.Azure.WebJobs.Core >= 3.0.41",
       "Microsoft.Azure.WebJobs.ServiceBus >= 2.3.0",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -8169,11 +8203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
+      "projectUniqueName": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
       "projectName": "API_Loan_Simulator",
-      "projectPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
+      "projectPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
       "packagesPath": "C:\\Users\\Tonic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\obj\\",
+      "outputPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8229,6 +8263,10 @@
             "version": "[2.3.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.8, )"
           },

@@ -11,7 +11,7 @@ namespace API_Loan_Simulator.Context
         public DBHack_Context(DbContextOptions<DBHack_Context> options) : base(options) { }
 
         public DbSet<Produto> Produtos { get; set; }
-        public DbSet<Simulacao> Simulacoes { get; set; }
+        //public DbSet<Simulacao> Simulacoes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

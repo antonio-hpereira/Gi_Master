@@ -1,11 +1,7 @@
 ﻿using API_Loan_Simulator.Context;
 using API_Loan_Simulator.Core_Simulator;
 using API_Loan_Simulator.Core_Simulator.ISimulator;
-using API_Loan_Simulator.Entities;
-using API_Loan_Simulator.Repository.IRepository;
-using Core_Simulator;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

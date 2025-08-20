@@ -1,10 +1,10 @@
 
 using API_Loan_Simulator.Common;
 using API_Loan_Simulator.Context;
+using API_Loan_Simulator.Core_Simulator;
 using API_Loan_Simulator.Core_Simulator.ISimulator;
 using API_Loan_Simulator.Repository.Concrete;
 using API_Loan_Simulator.Repository.IRepository;
-using Core_Simulator;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -19,6 +19,10 @@ namespace API_Loan_Simulator
             // Configura o DbContext com SQL Server
             builder.Services.AddDbContext<DBHack_Context>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("SQLConectionString")));
+
+            builder.Services.AddDbContext<MemoryContext>(options =>
+             options.UseInMemoryDatabase("BancoMemoria"));
+
 
             builder.Services.AddScoped<ISimuladorFinanciamento, SimuladorFinanciamento>();
             builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();

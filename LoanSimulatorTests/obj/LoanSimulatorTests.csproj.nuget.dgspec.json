@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\LoanSimulatorTests\\LoanSimulatorTests.csproj": {}
+    "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\LoanSimulatorTests\\LoanSimulatorTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj": {
+    "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
+        "projectUniqueName": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
         "projectName": "API_Loan_Simulator",
-        "projectPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
+        "projectPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj",
         "packagesPath": "C:\\Users\\Tonic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\obj\\",
+        "outputPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[9.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -102,14 +106,14 @@
         }
       }
     },
-    "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\LoanSimulatorTests\\LoanSimulatorTests.csproj": {
+    "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\LoanSimulatorTests\\LoanSimulatorTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\LoanSimulatorTests\\LoanSimulatorTests.csproj",
+        "projectUniqueName": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\LoanSimulatorTests\\LoanSimulatorTests.csproj",
         "projectName": "LoanSimulatorTests",
-        "projectPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\LoanSimulatorTests\\LoanSimulatorTests.csproj",
+        "projectPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\LoanSimulatorTests\\LoanSimulatorTests.csproj",
         "packagesPath": "C:\\Users\\Tonic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\LoanSimulatorTests\\obj\\",
+        "outputPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\LoanSimulatorTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -131,8 +135,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj": {
-                "projectPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\API_Loan_Simulator.csproj"
+              "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj": {
+                "projectPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\API_Loan_Simulator.csproj"
               }
             }
           }

@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\",
+  "WorkspaceRootPath": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\source\\repos\\api_loan_simulator\\api_loan_simulator\\core_simulator\\simuladorfinanciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\core_simulator\\simuladorfinanciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\documents\\hackathon\\desafiohackathon\\api_loan_simulator\\entities\\parcelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\entities\\parcelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\source\\repos\\api_loan_simulator\\api_loan_simulator\\core_simulator\\resultadofinalsimulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\core_simulator\\resultadofinalsimulacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\documents\\hackathon\\desafiohackathon\\api_loan_simulator\\controllers\\listasimulacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\controllers\\listasimulacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\source\\repos\\api_loan_simulator\\api_loan_simulator\\context\\dbhack_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\context\\dbhack_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\source\\repos\\api_loan_simulator\\api_loan_simulator\\common\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\common\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\source\\repos\\api_loan_simulator\\api_loan_simulator\\controllers\\loansimulatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\documents\\hackathon\\desafiohackathon\\api_loan_simulator\\controllers\\loansimulatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\controllers\\loansimulatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\source\\repos\\api_loan_simulator\\api_loan_simulator\\repository\\concrete\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\repository\\concrete\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,80 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultadoFinalSimulacao.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Core_Simulator\\ResultadoFinalSimulacao.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Core_Simulator\\ResultadoFinalSimulacao.cs",
-              "ToolTip": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Core_Simulator\\ResultadoFinalSimulacao.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Core_Simulator\\ResultadoFinalSimulacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Parcelas.cs",
+              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\Entities\\Parcelas.cs",
+              "RelativeDocumentMoniker": "API_Loan_Simulator\\Entities\\Parcelas.cs",
+              "ToolTip": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\Entities\\Parcelas.cs",
+              "RelativeToolTip": "API_Loan_Simulator\\Entities\\Parcelas.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T01:01:34.052Z",
+              "WhenOpened": "2025-08-20T03:48:09.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DBHack_Context.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Context\\DBHack_Context.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Context\\DBHack_Context.cs",
-              "ToolTip": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Context\\DBHack_Context.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Context\\DBHack_Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T00:37:31.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Common\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Common\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Common\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Common\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T00:29:43.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SimuladorFinanciamento.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "ToolTip": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowEYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T00:27:51.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LoanSimulatorController.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
+              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
               "RelativeDocumentMoniker": "API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
-              "ToolTip": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
+              "ToolTip": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
               "RelativeToolTip": "API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T00:27:39.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Repository\\Concrete\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Repository\\Concrete\\ProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\Tonic\\source\\repos\\API_Loan_Simulator\\API_Loan_Simulator\\Repository\\Concrete\\ProdutoRepository.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Repository\\Concrete\\ProdutoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T00:27:36.212Z",
+              "WhenOpened": "2025-08-20T03:40:16.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListaSimulacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\Controllers\\ListaSimulacoesController.cs",
+              "RelativeDocumentMoniker": "API_Loan_Simulator\\Controllers\\ListaSimulacoesController.cs",
+              "ToolTip": "C:\\Users\\Tonic\\Documents\\hackathon\\desafiohackathon\\API_Loan_Simulator\\Controllers\\ListaSimulacoesController.cs",
+              "RelativeToolTip": "API_Loan_Simulator\\Controllers\\ListaSimulacoesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:39:47.763Z",
               "EditorCaption": ""
             }
           ]
